@@ -1,10 +1,9 @@
 pipeline {
     agent any
-
     stages {
         stage('Build') {
             steps {
-                echo 'Build from DEV branch'
+                echo 'Build from MAIN branch'
             }
         }
     }
